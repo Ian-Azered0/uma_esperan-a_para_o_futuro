@@ -16,10 +16,3 @@ Projeto front-end pronto para GitHub Pages e desenvolvimento em VS Code.
 2. Rode `Live Server` ou `python -m http.server` para testar localmente.
 3. Publique no GitHub Pages (branch main, pasta root).
 
-## Observações
-- Os arquivos usam Font Awesome via CDN para facilitar o uso de ícones.
-- Substitua imagens em /images por fotos reais otimizadas (webp/jpg) antes da entrega final.
-- Cheque acessibilidade com leitores de tela e validador W3C.
-
-## Autor
-Gerado automaticamente por assistente — ajuste textos e links conforme necessário.
