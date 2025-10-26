@@ -11,8 +11,4 @@ Projeto front-end pronto para GitHub Pages e desenvolvimento em VS Code.
 - Componentes: cards, botões, badges, modais e alertas
 - Imagens genéricas otimizadas (placeholders)
 
-## Como usar
-1. Baixe o repositório e abra no VS Code.
-2. Rode `Live Server` ou `python -m http.server` para testar localmente.
-3. Publique no GitHub Pages (branch main, pasta root).
 
