@@ -1,0 +1,59 @@
+:root{
+  /* Palette - dark theme friendly */
+  --color-primary: #4CAF50; /* verde esperança */
+  --color-secondary: #2196F3; /* azul confiança */
+  --color-accent: #FF9800; /* laranja energia */
+  --color-support-1: #9C27B0; /* roxo inspiração */
+  --color-support-2: #FBC02D; /* amarelo otimismo */
+  --neutral-100: #FAFAFA;
+  --neutral-200: #BDBDBD;
+  --neutral-900: #121212;
+  --surface-1: #1E1E1E;
+  --surface-2: #232323;
+
+  /* Typography */
+  --font-family-base: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  --fs-xs: 0.75rem; /* 12px */
+  --fs-sm: 0.875rem; /* 14px */
+  --fs-md: 1rem; /* 16px */
+  --fs-lg: 1.25rem; /* 20px */
+  --fs-xl: 2rem; /* 32px */
+
+  /* Spacing modular */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+
+  /* Grid */
+  --grid-columns: 12;
+  --gutter: 16px;
+}
+
+/* Global resets and theme */
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;padding:0}
+body.theme-dark{
+  background: var(--neutral-900);
+  color: var(--neutral-100);
+  font-family: var(--font-family-base);
+  font-size: var(--fs-md);
+  line-height:1.5;
+}
+
+.container{max-width:1200px;margin:0 auto;padding:var(--space-3)}
+
+/* Grid base (12 cols) */
+.grid{display:grid;gap:var(--gutter);grid-template-columns:repeat(var(--grid-columns), 1fr);}
+.grid-2{grid-template-columns:repeat(2, 1fr)}
+.grid-3{grid-template-columns:repeat(3, 1fr)}
+
+/* Accessibility helpers */
+.visually-hidden{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);white-space:nowrap}
+
+/* Headings */
+h1{font-size:var(--fs-xl);margin:0 0 var(--space-2)}
+h2{font-size:var(--fs-lg);margin:0 0 var(--space-2)}
+h3{font-size:var(--fs-md);margin:0 0 var(--space-1)}
